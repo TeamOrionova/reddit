@@ -1,0 +1,23 @@
+{
+  "name": "tool1forme",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "devvit playtest",
+    "build": "devvit build"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.11",
+    "devvit": "0.12.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devvit": {
+    "appName": "sales-lead-monitor"
+  }
+}

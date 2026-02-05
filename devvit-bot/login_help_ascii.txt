@@ -1,0 +1,355 @@
+node.exe : 
+2026-02-05T13:49:04.652Z 
+config reading core plugin C:
+\Users\atulk\AppData\Roaming\
+npm\node_modules\devvit\node_
+modules\@devvit\cli
+At C:\Users\atulk\AppData\Roa
+ming\npm\devvit.ps1:24 char:5
++     & "node$exe" --no-warni
+ngs=ExperimentalWarning 
+"$basedir/node_mod ...
++     ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (2026-02  
+  -05T13:4...les\@devvit\c   
+ li:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+2026-02-05T13:49:04.669Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@de
+vvit\cli\package.json
+2026-02-05T13:49:04.679Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@de
+vvit\cli\oclif.manifest.json
+2026-02-05T13:49:04.680Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@de
+vvit\cli\.oclif.manifest.json
+2026-02-05T13:49:04.682Z 
+config:@devvit/cli loading 
+IDs from C:\Users\atulk\AppDa
+ta\Roaming\npm\node_modules\d
+evvit\node_modules\@devvit\cl
+i\dist\commands
+2026-02-05T13:49:04.705Z 
+config:@devvit/cli found 
+commands [
+  'curl',               
+'events',
+  'init',               
+'install',
+  'login',              
+'logout',
+  'logs',               
+'metrics',
+  'playtest',           
+'publish',
+  'uninstall',          
+'upload',
+  'version',            
+'view',
+  'whoami',             
+'bundle:actor',
+  'create:app-account', 
+'create:icons',
+  'list:apps',          
+'list:installs',
+  'products:add',       
+'settings:list',
+  'settings:set',       
+'update:app'
+]
+2026-02-05T13:49:06.459Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\version.js
+2026-02-05T13:49:07.631Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\products\add.js
+2026-02-05T13:49:07.631Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\update\app.js
+2026-02-05T13:49:09.901Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\init.js
+2026-02-05T13:49:09.902Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\metrics.js
+2026-02-05T13:49:09.903Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\create\app-account.js
+2026-02-05T13:49:09.903Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\create\icons.js
+2026-02-05T13:49:09.903Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\settings\set.js
+2026-02-05T13:49:09.904Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\curl.js
+2026-02-05T13:49:09.904Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\install.js
+2026-02-05T13:49:09.904Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\login.js
+2026-02-05T13:49:09.904Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\logout.js
+2026-02-05T13:49:09.904Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\uninstall.js
+2026-02-05T13:49:09.905Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\whoami.js
+2026-02-05T13:49:09.905Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\list\apps.js
+2026-02-05T13:49:09.905Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\list\installs.js
+2026-02-05T13:49:09.906Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\events.js
+2026-02-05T13:49:09.906Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\view.js
+2026-02-05T13:49:09.906Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\bundle\actor.js
+2026-02-05T13:49:09.908Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\settings\list.js
+2026-02-05T13:49:09.909Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\logs.js
+2026-02-05T13:49:09.909Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\playtest.js
+2026-02-05T13:49:09.909Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\publish.js
+2026-02-05T13:49:09.910Z 
+config:@devvit/cli (import) C
+:\Users\atulk\AppData\Roaming
+\npm\node_modules\devvit\node
+_modules\@devvit\cli\dist\com
+mands\upload.js
+2026-02-05T13:49:09.984Z 
+config reading user plugins 
+pjson C:\Users\atulk\AppData\
+Local\devvit\package.json
+2026-02-05T13:49:09.984Z 
+config loadJSON C:\Users\atul
+k\AppData\Local\devvit\packag
+e.json
+2026-02-05T13:49:09.985Z 
+config loading plugins [
+  '@oclif/plugin-not-found',
+  '@oclif/plugin-help',
+  '@oclif/plugin-warn-if-upda
+te-available'
+]
+2026-02-05T13:49:09.995Z 
+config reading core plugin C:
+\Users\atulk\AppData\Roaming\
+npm\node_modules\devvit\node_
+modules\@oclif\plugin-not-fou
+nd
+2026-02-05T13:49:09.996Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-not-found\package.
+json
+2026-02-05T13:49:09.996Z 
+config reading core plugin C:
+\Users\atulk\AppData\Roaming\
+npm\node_modules\devvit\node_
+modules\@oclif\plugin-help
+2026-02-05T13:49:09.996Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-help\package.json
+2026-02-05T13:49:09.996Z 
+config reading core plugin C:
+\Users\atulk\AppData\Roaming\
+npm\node_modules\devvit\node_
+modules\@oclif\plugin-warn-if
+-update-available
+2026-02-05T13:49:09.996Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-warn-if-update-ava
+ilable\package.json
+2026-02-05T13:49:09.998Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-not-found\oclif.ma
+nifest.json
+2026-02-05T13:49:09.999Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-warn-if-update-ava
+ilable\oclif.manifest.json
+2026-02-05T13:49:10.000Z 
+config loadJSON C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-help\oclif.manifes
+t.json
+2026-02-05T13:49:10.001Z conf
+ig:@oclif/plugin-not-found 
+using manifest from C:\Users\
+atulk\AppData\Roaming\npm\nod
+e_modules\devvit\node_modules
+\@oclif\plugin-not-found\ocli
+f.manifest.json
+2026-02-05T13:49:10.001Z conf
+ig:@oclif/plugin-warn-if-upda
+te-available using manifest 
+from C:\Users\atulk\AppData\R
+oaming\npm\node_modules\devvi
+t\node_modules\@oclif\plugin-
+warn-if-update-available\ocli
+f.manifest.json
+2026-02-05T13:49:10.002Z 
+config:@oclif/plugin-help 
+using manifest from C:\Users\
+atulk\AppData\Roaming\npm\nod
+e_modules\devvit\node_modules
+\@oclif\plugin-help\oclif.man
+ifest.json
+2026-02-05T13:49:10.007Z 
+config config done
+2026-02-05T13:49:10.008Z 
+config start init hook
+2026-02-05T13:49:10.024Z devv
+it:@oclif/plugin-warn-if-upda
+te-available:hooks:init 
+start (require) C:\Users\atul
+k\AppData\Roaming\npm\node_mo
+dules\devvit\node_modules\@oc
+lif\plugin-warn-if-update-ava
+ilable\lib\hooks\init\check-u
+pdate.js
+2026-02-05T13:49:10.026Z devv
+it:@devvit/cli:hooks:init 
+start (import) C:\Users\atulk
+\AppData\Roaming\npm\node_mod
+ules\devvit\node_modules\@dev
+vit\cli\dist\lib\hooks\init\c
+heck-node-version.js
+2026-02-05T13:49:10.027Z devv
+it:@devvit/cli:hooks:init 
+done
+2026-02-05T13:49:10.029Z devv
+it:@devvit/cli:hooks:init 
+start (import) C:\Users\atulk
+\AppData\Roaming\npm\node_mod
+ules\devvit\node_modules\@dev
+vit\cli\dist\lib\hooks\init\f
+ire-event.js
+2026-02-05T13:49:10.038Z devv
+it:@oclif/plugin-warn-if-upda
+te-available:hooks:init done
+2026-02-05T13:49:11.507Z devv
+it:@devvit/cli:hooks:init 
+done
+2026-02-05T13:49:11.507Z 
+config init hook done
+Log in to Devvit via reddit.com
+
+USAGE
+  $ devvit login [--config <value>] [--copy-paste]
+
+FLAGS
+  --config=<value>  path to devvit config file
+  --copy-paste      If present, the user will copy-paste their code from the
+                    browser, rather than use localhost.
+
+DESCRIPTION
+  Log in to Devvit via reddit.com
+
