@@ -11,5 +11,7 @@ export const getConversations = () => api.get('/conversations');
 export const getConversation = (username) => api.get(`/conversations/${username}`);
 export const toggleTakeover = (username, enable) => api.post(`/conversations/${username}/takeover?enable=${enable}`);
 export const getLogs = () => api.get('/logs');
+export const getSettings = (key) => api.get(`/settings/${key}`);
+export const updateSettings = (key, value) => api.post(`/settings/${key}`, value);
 
 export default api;

@@ -50,7 +50,33 @@ Devvit.addSchedulerJob({
         // Get Discord webhook from settings
         const webhookUrl = await context.settings.get<string>('discordWebhook');
 
-        for (const subredditName of SUBREDDITS_TO_MONITOR) {
+        // Get subreddits from backend settings
+        let subredditsToMonitor = [
+            'sales',
+            'freelance_sales',
+            'sidehustle',
+            'remotejobs',
+            'forhire',
+            'workfromhome',
+        ];
+
+        const backendUrl = await context.settings.get<string>('backendUrl');
+        if (backendUrl) {
+            try {
+                const response = await fetch(`${backendUrl.replace(/\/$/, '')}/api/settings/monitored_subreddits`);
+                if (response.ok) {
+                    const data: any = await response.json();
+                    if (data && data.list && data.list.length > 0) {
+                        subredditsToMonitor = data.list;
+                        console.log(`Using targeted subreddits from dashboard: ${subredditsToMonitor.join(', ')}`);
+                    }
+                }
+            } catch (e) {
+                console.error('Failed to fetch subreddits from backend, using defaults:', e);
+            }
+        }
+
+        for (const subredditName of subredditsToMonitor) {
             try {
                 // Use getNewPosts directly from reddit client
                 const posts = await reddit.getNewPosts({

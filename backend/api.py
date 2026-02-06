@@ -71,3 +71,19 @@ def collect_conversation(data: dict, db: Session = Depends(get_db)):
     db.commit()
     return {"status": "success"}
 
+@router.get("/settings/{key}")
+def get_setting(key: str, db: Session = Depends(get_db)):
+    setting = db.query(Settings).filter(Settings.key == key).first()
+    return setting.value if setting else None
+
+@router.post("/settings/{key}")
+def update_setting(key: str, value: dict, db: Session = Depends(get_db)):
+    setting = db.query(Settings).filter(Settings.key == key).first()
+    if not setting:
+        setting = Settings(key=key, value=value)
+        db.add(setting)
+    else:
+        setting.value = value
+    db.commit()
+    return {"status": "success"}
+

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import LeadViewer from './LeadViewer';
 import ConversationManager from './ConversationManager';
 import SystemHealth from './SystemHealth';
+import SettingsManager from './SettingsManager';
 import { LayoutDashboard, MessageSquare, Activity, Settings, Zap } from 'lucide-react';
 
 const Dashboard = () => {
@@ -67,16 +68,7 @@ const Dashboard = () => {
                         {activeTab === 'leads' && <LeadViewer />}
                         {activeTab === 'conversations' && <ConversationManager />}
                         {activeTab === 'health' && <SystemHealth />}
-                        {activeTab === 'settings' && (
-                            <div className="flex flex-col items-center justify-center p-24 glass-card rounded-3xl border-dashed">
-                                <div className="w-20 h-20 bg-slate-800 rounded-3xl flex items-center justify-center mb-6">
-                                    <Settings className="w-10 h-10 text-slate-600 animate-spin-slow" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-white">Advanced Configuration</h3>
-                                <p className="text-slate-400 mt-2 max-w-sm text-center">Customize your AI models, RAG parameters, and webhook integrations from this panel.</p>
-                                <button className="btn-primary mt-8 px-8">Coming Soon</button>
-                            </div>
-                        )}
+                        {activeTab === 'settings' && <SettingsManager />}
                     </div>
                 </div>
             </main>
