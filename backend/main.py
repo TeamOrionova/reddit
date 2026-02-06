@@ -47,10 +47,14 @@ async def lifespan(app: FastAPI):
     logger.info("Starting up...")
     init_db()
     
-    # Start background tasks
-    asyncio.create_task(background_monitor())
-    asyncio.create_task(background_dm_check())
-    asyncio.create_task(background_scheduler())
+    # We are using Devvit for the actual Reddit monitoring and DMs.
+    # The Python backend now serves as the Dashboard & Data Collector API only.
+    # This prevents the "Credentials not configured" error on Render.
+    
+    # logger.info("Background tasks disabled (handled by Devvit)")
+    # asyncio.create_task(background_monitor())
+    # asyncio.create_task(background_dm_check())
+    # asyncio.create_task(background_scheduler())
     
     yield
     
