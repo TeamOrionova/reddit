@@ -59,22 +59,18 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# CORS configuration
-origins = [
-    "http://localhost:3000",
-    "http://localhost:5173", # Vite default
-    "https://your-frontend-url.vercel.app"
-]
-
+# CORS configuration: Allow all for easy testing on Render/Vercel
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 app.include_router(router, prefix="/api")
+# Fallback so both /api/leads and /leads work (common deployment mistake)
+app.include_router(router)
 
 @app.get("/")
 def read_root():
